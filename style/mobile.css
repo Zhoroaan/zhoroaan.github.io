@@ -1,0 +1,134 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* SOCIAL :D */
+a.social {
+  font-size: 10px;
+  margin: 0 10px 0 10px; }
+
+.twitter-button {
+  padding-left: 24px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: url('../images/twitter.png');
+  background-repeat: no-repeat; }
+
+.linkedin-button {
+  padding-left: 24px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: url('../images/linkedin.png');
+  background-repeat: no-repeat; }
+
+body {
+  font: 14px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  color: #cecece;
+  background-color: #353535;
+  margin: 0;
+  background-image: url("../images/background.gif");
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  body:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+h1, h2, h3 {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: normal; }
+
+a {
+  color: #737373;
+  text-decoration: none; }
+
+a:hover {
+  text-shadow: 0 0 12px #ffffff;
+  color: #CCCCCC;
+  /*text-decoration: underline;*/ }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+header {
+  background-color: black;
+  height: 3em;
+  background-image: url("../images/logo_mobile.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom; }
+  header aside {
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+footer {
+  border-top: 2px solid #161516;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  footer .box {
+    height: 2em;
+    white-space: nowrap;
+    display: block;
+    text-align: center; }
+    footer .box p {
+      margin-top: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* GAMES! :D */
+section.games {
+  margin-top: 0.5em;
+  margin-bottom: 1em; }
+
+article.game {
+  background-color: black;
+  margin-bottom: 1.5em;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+  article.game:after {
+    content: "";
+    display: table;
+    clear: both; }
+  article.game h1 {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 0.5em;
+    margin-bottom: 0.5em; }
+  article.game p {
+    display: none; }
+  article.game .game-wrapper {
+    height: 350px; }
+    article.game .game-wrapper iframe, article.game .game-wrapper .youtube {
+      width: 100%;
+      height: 100%;
+      height: 350px; }
