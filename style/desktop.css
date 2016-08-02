@@ -28,41 +28,41 @@ a.social {
   padding-left: 24px;
   padding-top: 2px;
   padding-bottom: 2px;
-  background: url('../images/twitter.png');
+  background: url("../images/twitter.png");
   background-repeat: no-repeat; }
 
 .linkedin-button {
   padding-left: 24px;
   padding-top: 2px;
   padding-bottom: 2px;
-  background: url('../images/linkedin.png');
+  background: url("../images/linkedin.png");
   background-repeat: no-repeat; }
 
 body {
-  font: 1em 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-  color: #cecece;
+  font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #eeeeee;
   background-color: #353535;
   margin: 0;
   background-image: url("../images/background.gif");
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  body:after {
+  body::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
 
 h1, h2, h3 {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-weight: normal; }
 
 a {
-  color: #737373;
+  color: #9254de;
   text-decoration: none; }
 
 a:hover {
-  text-shadow: 0 0 12px #ffffff;
-  color: #CCCCCC;
+  text-shadow: 0 0 10px #a65efe;
+  color: #a65efe;
   /*text-decoration: underline;*/ }
 
 .pretty-embed {
@@ -75,15 +75,22 @@ html {
   box-sizing: inherit; }
 
 header {
-  background-color: black;
-  height: 6em;
+  background-color: #101010;
+  height: 11em;
   background-image: url("../images/logo_desktop.svg");
   background-repeat: no-repeat;
-  background-position: left bottom; }
+  background-position: center;
+  display: block;
+  /*aside {
+        float: right;
+        margin-right: 25px;
+        margin-top: 10px;
+    }*/ }
   header aside {
-    float: right;
-    margin-right: 25px;
-    margin-top: 10px; }
+    padding-top: 8.5em;
+    float: none;
+    margin: auto;
+    width: 200px; }
 
 html {
   box-sizing: border-box; }
@@ -98,17 +105,17 @@ footer {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  footer:after {
+  footer::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
   footer .box {
     height: 8em;
     white-space: nowrap;
     float: left;
     display: block;
-    margin-right: 2.12766%;
-    width: 31.91489%;
+    margin-right: 2.35765%;
+    width: 31.76157%;
     display: block;
     text-align: center; }
     footer .box:last-child {
@@ -134,38 +141,37 @@ section.games {
   margin-bottom: 5em; }
 
 article.game {
-  min-height: 350px;
-  background-color: black;
+  min-height: 351px;
+  background-color: #101010;
   margin-bottom: 2em;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  width: 100%; }
-  article.game:after {
+  width: 100%;
+  display: block; }
+  article.game::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
   article.game h1 {
     text-align: center;
     font-size: 3em;
     margin-top: 0.1em; }
-  article.game p {
-    font-size: 1.2em;
-    display: block; }
   article.game .gameTextArea {
     float: left;
     display: block;
-    margin-right: 2.12766%;
-    width: 40.42553%;
-    padding: 2.12766%;
-    height: 350px; }
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    padding: 2.35765%;
+    height: 351px; }
     article.game .gameTextArea:last-child {
       margin-right: 0; }
   article.game .game-wrapper {
     float: left;
     display: block;
-    margin-right: 2.12766%;
-    width: 57.44681%; }
+    margin-right: 2.35765%;
+    width: 57.35098%;
+    height: 351px; }
     article.game .game-wrapper:last-child {
       margin-right: 0; }
 

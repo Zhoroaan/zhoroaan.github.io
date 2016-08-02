@@ -25,41 +25,41 @@ a.social {
   padding-left: 24px;
   padding-top: 2px;
   padding-bottom: 2px;
-  background: url('../images/twitter.png');
+  background: url("../images/twitter.png");
   background-repeat: no-repeat; }
 
 .linkedin-button {
   padding-left: 24px;
   padding-top: 2px;
   padding-bottom: 2px;
-  background: url('../images/linkedin.png');
+  background: url("../images/linkedin.png");
   background-repeat: no-repeat; }
 
 body {
-  font: 1em 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-  color: #cecece;
+  font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #eeeeee;
   background-color: #353535;
   margin: 0;
   background-image: url("../images/background.gif");
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  body:after {
+  body::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
 
 h1, h2, h3 {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-weight: normal; }
 
 a {
-  color: #737373;
+  color: #9254de;
   text-decoration: none; }
 
 a:hover {
-  text-shadow: 0 0 12px #ffffff;
-  color: #CCCCCC;
+  text-shadow: 0 0 10px #a65efe;
+  color: #a65efe;
   /*text-decoration: underline;*/ }
 
 .pretty-embed {
@@ -72,15 +72,16 @@ html {
   box-sizing: inherit; }
 
 header {
-  background-color: black;
-  height: 3em;
+  background-color: #101010;
+  height: 6em;
   background-image: url("../images/logo_mobile.svg");
   background-repeat: no-repeat;
-  background-position: left bottom; }
+  background-position: center; }
   header aside {
-    float: right;
-    margin-right: 25px;
-    margin-top: 10px; }
+    padding-top: 4em;
+    float: none;
+    margin: auto;
+    width: 200px; }
 
 html {
   box-sizing: border-box; }
@@ -112,20 +113,29 @@ section.games {
   margin-bottom: 1em; }
 
 article.game {
-  background-color: black;
+  background-color: #101010;
   margin-bottom: 1.5em;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  width: 100%; }
-  article.game:after {
+  width: 100%;
+  display: table; }
+  article.game::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
   article.game h1 {
     text-align: center;
     font-size: 2em;
-    padding-top: 0.5em;
-    margin-bottom: 0.5em; }
+    margin-bottom: 0.5em;
+    text-align: center; }
   article.game p {
-    display: none; }
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0 10px 0 10px; }
+  article.game img {
+    width: 100%;
+    height: 100%; }
+  article.game .game-wrapper {
+    margin-bottom: -5px;
+    display: table-header-group; }
