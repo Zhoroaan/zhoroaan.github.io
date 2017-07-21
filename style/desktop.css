@@ -39,8 +39,9 @@ a.social {
   background-repeat: no-repeat; }
 
 body {
-  font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  color: #eeeeee;
+  font: 1em "Raleway", sans-serif;
+  color: #ddd;
+  font-weight: medium;
   background-color: #353535;
   margin: 0;
   background-image: url("../images/background.gif");
@@ -53,7 +54,7 @@ body {
     display: table; }
 
 h1, h2, h3 {
-  font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "Oswald", sans-serif;
   font-weight: normal; }
 
 a {
